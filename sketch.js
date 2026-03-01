@@ -6,7 +6,7 @@ function setup() {
 function draw() {
   const t = millis() / 1000;
   background(200);
-  translate(0, 25 * sin(t * 0.6));
+  translate(0, 25 * tan(t * 0.6));
   rotateX(t * 0.6);
   rotateY(t * 0.9);
   rotateZ(t * 1.2);
